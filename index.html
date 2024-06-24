@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="progImc.js" defer></script>
+    <link rel="shortcut icon" href="peso.svg">
+    <title>IMC</title>
+</head>
+<body>
+    <h1 class="titulo">Cálculo do IMC</h1><br>
+    <label class="rotulo" for="nome">Digite o NOME do Paciente: </label><br><br>
+    <input type="text" id="nome"  placeholder="Nome"><br><br>
+    
+    <label class="rotulo" for="peso">Digite o PESO do Paciente: </label><br><br>
+    <input type="text" id="peso"  placeholder="Peso"><br><br>
+    
+    <label class="rotulo" for="altura">Digite o ALTURA do Paciente (ex: 1.70): </label><br><br>
+    <input type="text" id="altura"  placeholder="Altura"><br><br>
+
+
+    <button onclick="calcular()">Calcular</button><br><br>
+    <div id="resposta"></div>
+
+</body>
+</html>
